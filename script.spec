@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(
-    ['scriptv2.py'],
+    ['script.py'],
     pathex=[],
     binaries=[],
     datas=[],
@@ -28,7 +28,7 @@ exe = EXE(
     a.zipfiles,
     a.datas,
     [],
-    name='scriptv2',
+    name='script',
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
